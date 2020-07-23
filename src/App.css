@@ -1,2 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700");
 @import "./utilities/reset.css";
 @import "./components/Navigation/styles.css";
+
+section {
+  padding: 4em;
+  font-family: "IBM Plex Serif, serif";
+  background-color: #e41300;
+  min-height: 100vh;
+}
+
+h1 {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 8em;
+  color: antiquewhite;
+}
+
+p {
+  font-size: 2em;
+  color: #670502;
+}
