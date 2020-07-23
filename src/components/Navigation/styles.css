@@ -1,0 +1,13 @@
+.navigation-container {
+  display: flex;
+  padding: 2em;
+}
+
+.navigation-logo {
+  height: 24px;
+}
+
+.navigation-list {
+  display: flex;
+}
+
