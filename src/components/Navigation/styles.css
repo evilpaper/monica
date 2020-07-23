@@ -1,5 +1,6 @@
 .navigation-container {
   display: flex;
+  justify-content: space-between;
   padding: 2em;
 }
 
@@ -11,3 +12,25 @@
   display: flex;
 }
 
+.navigation-list__item {
+  margin-right: 4em;
+  padding: 0.2em 1em;
+}
+
+.navigation-list__item--account {
+  margin-right: 0;
+  border-radius: 50px;
+  border: 2px solid coral;
+}
+
+.naviagtion-link {
+  color: slategrey;
+}
+
+.naviagtion-link:hover {
+  color: dodgerblue;
+}
+
+.is-active {
+  color: black;
+}
