@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
   NavLink,
 } from "react-router-dom";
 import Todos from "../Todos";
@@ -29,7 +28,6 @@ function Navigation() {
                 className="navigation-logo"
                 src={logo}
                 alt="monica logo"
-                height="24px"
               ></img>
             </NavLink>
           </li>
@@ -40,7 +38,7 @@ function Navigation() {
               className="naviagtion-link"
               to="/"
             >
-              To Do
+              To-do's
             </NavLink>
           </li>
           <li className="navigation-list__item">
@@ -49,7 +47,7 @@ function Navigation() {
               className="naviagtion-link"
               to="/howtos"
             >
-              How To
+              How-to's
             </NavLink>
           </li>
           <li className="navigation-list__item">
@@ -61,6 +59,8 @@ function Navigation() {
               Team
             </NavLink>
           </li>
+        </ul>
+        <ul className="navigation-list">
           <li className="navigation-list__item">
             <NavLink
               activeClassName="is-active"
@@ -70,15 +70,13 @@ function Navigation() {
               Settings
             </NavLink>
           </li>
-        </ul>
-        <ul className="">
           <li className="navigation-list__item navigation-list__item--account">
             <NavLink
               activeClassName="is-active"
               className="naviagtion-link"
               to="/account"
             >
-              Sign In
+              Account
             </NavLink>
           </li>
         </ul>
