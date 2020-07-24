@@ -2,10 +2,20 @@
 @import "./utilities/reset.css";
 @import "./components/Navigation/styles.css";
 
+:root {
+  --color-base: #00ffa2;
+  --color-dark: #004466;
+  --color-light: #efeee5;
+  --color-white: #f9f9f9;
+  --color-gray-primary: #858a8c;
+  --color-gray-secondary: #676d70;
+  --color-gray-tertiary: #394044;
+}
+
 section {
   padding: 4em;
   font-family: "IBM Plex Serif, serif";
-  background-color: #e41300;
+  background-color: var(--color-dark);
   min-height: 100vh;
 }
 
@@ -13,10 +23,10 @@ h1 {
   font-weight: 700;
   font-style: italic;
   font-size: 8em;
-  color: antiquewhite;
+  color: var(--color-base);
 }
 
 p {
   font-size: 2em;
-  color: #670502;
+  color: var(--color-light);
 }
