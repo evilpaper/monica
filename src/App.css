@@ -5,10 +5,10 @@
 @import "./components/SignUp/styles.css";
 
 :root {
-  --color-base: #00ffa2;
+  --color-base: #5000dc;
   --color-dark: #004466;
   --color-black: #040921;
-  --color-contrast: #ffaf21;
+  --color-contrast: #ff328c;
   --color-light: #efeded;
   --color-white: #faf9f9;
   --color-gray-primary: #6f697b;
@@ -32,7 +32,7 @@
 
 section {
   padding: 4em 6em;
-  background-color: var(--color-light);
+  /* background-color: var(--color-light); */
   min-height: 100vh;
 }
 
