@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   width: 22em;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .stack > * + * {
@@ -26,7 +26,7 @@
   flex-direction: column;
 }
 
-h1 {
+.sign-up-header {
   font-size: 2em;
   font-weight: 700;
   display: inline-block;

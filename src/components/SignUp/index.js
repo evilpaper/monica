@@ -4,7 +4,7 @@ export default function SignUp() {
   return (
     <section className="sign-up-page">
       <form className="sign-up-form stack">
-        <h1>Create account to save your data</h1>
+        <h1 className="sign-up-header">Create account to save your data</h1>
         <div className="small-stack">
           <label for="email">Email</label>
           <input
