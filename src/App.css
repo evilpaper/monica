@@ -21,12 +21,12 @@
   --color-highlight-main: hsl(10, 10, 10);
   --color-highlight-bright: hsl(10, 10, 10);
   --color-highlight-pastel: hsl(10, 10, 10);
-  --color-brightness-one: hsl(10, 10, 10);
-  --color-brightness-two: hsl(10, 10, 10);
-  --color-brightness-three: hsl(10, 10, 10);
-  --color-brightness-five: hsl(10, 10, 10);
-  --color-brightness-nine: hsl(10, 10, 10);
-  --color-brightness-ten: hsl(10, 10, 10);
+  --color-brightness-one: #121212;
+  --color-brightness-two: #333333;
+  --color-brightness-three: #767676;
+  --color-brightness-five: #999999;
+  --color-brightness-nine: #dcdcdc;
+  --color-brightness-ten: #ededed;
 }
 
 section {
