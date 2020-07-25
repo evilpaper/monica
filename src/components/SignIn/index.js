@@ -1,5 +1,11 @@
 import React from "react";
 
 export default function SignIn() {
-  return <h1>Sign In</h1>;
+  return (
+    <form className="sign-in">
+      <input name="username" type="email" placeholder="Your email"></input>
+      <input name="password" type="password" placeholder="Passoword"></input>
+      <button>Create account</button>
+    </form>
+  );
 }

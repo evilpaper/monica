@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700");
 @import "./utilities/reset.css";
 @import "./components/Navigation/styles.css";
+@import "./components/SignUp/styles.css";
 
 :root {
   --color-base: #00ffa2;
@@ -11,6 +12,21 @@
   --color-white: #faf9f9;
   --color-gray-primary: #6f697b;
   --color-gray-secondary: #3a3e51;
+  /* */
+  --color-brand-dark: hsl(10, 10, 10);
+  --color-brand-main: hsl(10, 10, 10);
+  --color-brand-bright: hsl(10, 10, 10);
+  --color-brand-pastel: hsl(10, 10, 10);
+  --color-highlight-dark: hsl(10, 10, 10);
+  --color-highlight-main: hsl(10, 10, 10);
+  --color-highlight-bright: hsl(10, 10, 10);
+  --color-highlight-pastel: hsl(10, 10, 10);
+  --color-brightness-one: hsl(10, 10, 10);
+  --color-brightness-two: hsl(10, 10, 10);
+  --color-brightness-three: hsl(10, 10, 10);
+  --color-brightness-five: hsl(10, 10, 10);
+  --color-brightness-nine: hsl(10, 10, 10);
+  --color-brightness-ten: hsl(10, 10, 10);
 }
 
 section {

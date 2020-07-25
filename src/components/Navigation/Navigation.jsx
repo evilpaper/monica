@@ -11,6 +11,8 @@ import Team from "../Team";
 import Settings from "../Settings";
 import Account from "../Account";
 import logo from "../../assets/monica-logo.svg";
+import SignIn from "../SignIn";
+import SignUp from "../SignUp";
 
 function Navigation() {
   return (
@@ -94,6 +96,12 @@ function Navigation() {
         </Route>
         <Route path="/account">
           <Account />
+        </Route>
+        <Route path="/signup">
+          <SignUp />
+        </Route>
+        <Route path="/signin">
+          <SignIn />
         </Route>
         <Route path="/">
           <Todos />
