@@ -3,7 +3,7 @@ import React from "react";
 export default function Todos() {
   return (
     <section>
-      <h1>To Do</h1>
+      <h1>To Do's</h1>
       <p>
         Here you will find all the tasks you need to perform and document. Once
         you have done the tasks you will be sure you have done everything you
