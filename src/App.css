@@ -31,7 +31,7 @@
 }
 
 section {
-  padding: 4em;
+  padding: 4em 6em;
   background-color: var(--color-light);
   min-height: 100vh;
 }
