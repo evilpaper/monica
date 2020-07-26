@@ -9,11 +9,7 @@
   --color-dark: #004466;
   --color-black: #040921;
   --color-contrast: #ff328c;
-  --color-light: #efeded;
-  --color-white: #faf9f9;
-  --color-gray-primary: #6f697b;
-  --color-gray-secondary: #3a3e51;
-  /* */
+
   --color-brand-dark: hsl(10, 10, 10);
   --color-brand-main: hsl(10, 10, 10);
   --color-brand-bright: hsl(10, 10, 10);
@@ -22,17 +18,23 @@
   --color-highlight-main: hsl(10, 10, 10);
   --color-highlight-bright: hsl(10, 10, 10);
   --color-highlight-pastel: hsl(10, 10, 10);
-  --color-brightness-one: #121212;
-  --color-brightness-two: #333333;
-  --color-brightness-three: #767676;
-  --color-brightness-five: #999999;
-  --color-brightness-nine: #dcdcdc;
-  --color-brightness-ten: #ededed;
+
+  --color-lightgrey-one: hsl(240, 24%, 96%);
+  --color-lightgrey-two: hsl(240, 11%, 91%);
+  --color-lightgrey-three: hsl(240, 6%, 83%);
+  --color-lightgrey-four: hsl(240, 5%, 79%);
+  --color-lightgrey-five: hsl(240, 3%, 60%);
+  --color-lightgrey-six: hsl(240, 2%, 57%);
+  --color-darkgrey-one: hsl(240, 1%, 39%);
+  --color-darkgrey-two: hsl(240, 1%, 29%);
+  --color-darkgrey-three: hsl(240, 2%, 23%);
+  --color-darkgrey-four: hsl(240, 2%, 18%);
+  --color-darkgrey-five: hsl(240, 3%, 11%);
+  --color-darkgrey-six: hsl(240, 4%, 4%);
 }
 
 section {
   padding: 4em 6em;
-  /* background-color: var(--color-light); */
   min-height: 100vh;
 }
 
