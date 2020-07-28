@@ -5,14 +5,15 @@ import {
   Route,
   NavLink,
 } from "react-router-dom";
+import logo from "../../assets/monica-logo.svg";
 import Todos from "../Todos";
 import Howtos from "../Howtos";
 import Team from "../Team";
 import Settings from "../Settings";
 import Account from "../Account";
-import logo from "../../assets/monica-logo.svg";
 import SignIn from "../SignIn";
 import SignUp from "../SignUp";
+import Landing from "../Landing";
 
 function Navigation() {
   return (
@@ -102,6 +103,9 @@ function Navigation() {
         </Route>
         <Route path="/signin">
           <SignIn />
+        </Route>
+        <Route path="/landing">
+          <Landing />
         </Route>
         <Route path="/">
           <Todos />
