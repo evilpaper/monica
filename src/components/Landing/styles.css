@@ -10,6 +10,12 @@
 .landing-header {
   color: var(--color-lightgrey-one);
   margin-top: 2.4em;
+  font-size: 3.2em;
+  font-weight: 500;
+}
+
+.landing-header span {
+  font-weight: 700;
 }
 
 .landing-copy {
@@ -23,7 +29,7 @@
   background-color: var(--color-turquoise);
   border: 2px solid var(--color-turquoise);
   color: var(--color-black);
-  margin-top: 2em;
+  margin-top: 3em;
   /* Remove this later when you have cleaned up global style and namespace*/
   opacity: 1;
   max-width: 20em;

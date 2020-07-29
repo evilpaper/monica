@@ -6,9 +6,13 @@ import Landing from "./components/Landing";
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
+  function handleLoginClick() {
+    setIsLoggedIn(!isLoggedIn);
+  }
+
   return (
     <>
-      {!isLoggedIn && <Landing />}
+      {!isLoggedIn && <Landing handleLoginClick={handleLoginClick} />}
       {isLoggedIn && <Navigation />}
     </>
   );
