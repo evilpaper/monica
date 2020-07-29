@@ -9,19 +9,21 @@
 
 .landing-header {
   color: var(--color-lightgrey-one);
-  margin-top: 2.4em;
+  margin-top: 3em;
   font-size: 3.2em;
   font-weight: 500;
 }
 
 .landing-header span {
-  font-weight: 700;
+  color: var(--color-turquoise);
 }
 
 .landing-copy {
   color: var(--color-lightgrey-one);
   margin-top: 1em;
   max-width: 60%;
+  font-size: 1.2em;
+  line-height: 1.6em;
 }
 
 .landing-cta {
@@ -32,7 +34,7 @@
   margin-top: 3em;
   /* Remove this later when you have cleaned up global style and namespace*/
   opacity: 1;
-  max-width: 20em;
+  max-width: 14em;
 }
 
 @media (max-width: 1800px) {

@@ -9,9 +9,9 @@ export default function Landing() {
         <span>Fastest </span> Food Safety for Caters
       </h1>
       <p className="landing-copy">
-        Everything your cater business needs to comply to food safety
-        regulations. Free 14 days trial, no credit card needed. You are minutes
-        away too be compliant.
+        Everything your business need to comply to food safety regulations. Free
+        14 days 14 trail, no credit card needed. You are minutes away too be
+        compliant.
       </p>
       <button className="landing-cta">SHOW ME NOW</button>
     </section>
