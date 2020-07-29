@@ -1,0 +1,57 @@
+.landing-section {
+  background-image: url("../../assets/landing-bg-min.jpg");
+  background-size: cover;
+}
+
+.landing-logo {
+  width: 6em;
+}
+
+.landing-header {
+  color: var(--color-lightgrey-one);
+  margin-top: 2.4em;
+}
+
+.landing-copy {
+  color: var(--color-lightgrey-one);
+  margin-top: 1em;
+  max-width: 60%;
+}
+
+.landing-cta {
+  border-radius: 2em;
+  background-color: var(--color-turquoise);
+  border: 2px solid var(--color-turquoise);
+  color: var(--color-black);
+  margin-top: 2em;
+  /* Remove this later when you have cleaned up global style and namespace*/
+  opacity: 1;
+  max-width: 20em;
+}
+
+@media (max-width: 1800px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 900px) {
+  .landing-section {
+    padding: 3em;
+  }
+  .landing-header {
+    margin-top: 1em;
+  }
+  .landing-copy {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .landing-section {
+    padding: 2em;
+  }
+  .landing-copy {
+    max-width: 100%;
+  }
+}
