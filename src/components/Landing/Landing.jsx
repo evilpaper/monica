@@ -6,12 +6,11 @@ export default function Landing() {
     <section className="landing-section">
       <img className="landing-logo" src={logo} alt="monica logo"></img>
       <h1 className="landing-header">
-        <span>Fastest </span> Food Safety for Caters
+        <span>Fastest </span> way to live up to food safety rules
       </h1>
       <p className="landing-copy">
-        Everything your business need to comply to food safety regulations. Free
-        14 days 14 trail, no credit card needed. You are minutes away too be
-        compliant.
+        Everything your food business need to comply to food safety regulations.
+        Free 14 days trail. You are minutes away too be compliant.
       </p>
       <button className="landing-cta">SHOW ME NOW</button>
     </section>
