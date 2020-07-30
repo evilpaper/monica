@@ -10,14 +10,17 @@ export default function Landing(props) {
     <section className="landing-section">
       <img className="landing-logo" src={logo} alt="monica logo"></img>
       <h1 className="landing-header">
-        <span>Fastest </span> way to live up to food safety rules
+        <span>Fastest </span> way to comply
+        <br />
+        to food safety requirements
       </h1>
       <p className="landing-copy">
-        Everything your food business need to comply to food safety regulations.
+        Pass inspections every time. Be compliant every day.
+        <br />
         Free 14 days trail. You are minutes away too be compliant.
       </p>
       <button onClick={onButtonClick} className="landing-cta">
-        SHOW ME NOW
+        TRY MONICA NOW
       </button>
     </section>
   );
