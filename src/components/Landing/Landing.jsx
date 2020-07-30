@@ -1,7 +1,11 @@
 import React from "react";
 import logo from "../../assets/monica-logo-turquoise.svg";
 
-export default function Landing() {
+export default function Landing(props) {
+  function onButtonClick() {
+    props.handleLoginClick();
+  }
+
   return (
     <section className="landing-section">
       <img className="landing-logo" src={logo} alt="monica logo"></img>
@@ -12,7 +16,9 @@ export default function Landing() {
         Everything your food business need to comply to food safety regulations.
         Free 14 days trail. You are minutes away too be compliant.
       </p>
-      <button className="landing-cta">SHOW ME NOW</button>
+      <button onClick={onButtonClick} className="landing-cta">
+        SHOW ME NOW
+      </button>
     </section>
   );
 }
