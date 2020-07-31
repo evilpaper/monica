@@ -51,4 +51,27 @@ p {
   font-family: "IBM Plex Serif", serif;
   font-size: 1.2em;
   color: var(--color-dark);
+  line-height: 1.5em;
+}
+
+.general-copy {
+  margin-top: 2em;
+}
+
+@media (max-width: 1800px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 900px) {
+  section {
+    padding: 3em;
+  }
+}
+
+@media (max-width: 600px) {
+  section {
+    padding: 2em;
+  }
 }

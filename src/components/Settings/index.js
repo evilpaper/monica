@@ -4,7 +4,7 @@ export default function Settings() {
   return (
     <section>
       <h1>Settings.</h1>
-      <p>Here you will find relevant settings for your business. Like:</p>
+      <p className="general-copy">List of settings.</p>
       <ul>
         <li>
           <p>· Opening hours.</p>
@@ -14,6 +14,9 @@ export default function Settings() {
         </li>
         <li>
           <p>· Day break.</p>
+        </li>
+        <li>
+          <p>· Billings (for account owner).</p>
         </li>
       </ul>
     </section>
