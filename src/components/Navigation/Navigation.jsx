@@ -6,6 +6,12 @@ import {
   NavLink,
 } from "react-router-dom";
 import logo from "../../assets/monica-logo.svg";
+import {
+  FiCheckSquare,
+  FiHelpCircle,
+  FiUsers,
+  FiSettings,
+} from "react-icons/fi";
 import Todos from "../Todos";
 import Howtos from "../Howtos";
 import Team from "../Team";
@@ -41,6 +47,9 @@ function Navigation() {
               className="naviagtion-link"
               to="/"
             >
+              <div className="navigation__item--icon-container">
+                <FiCheckSquare className="navigation__item--icon" />
+              </div>
               To-do's
             </NavLink>
           </li>
@@ -50,6 +59,9 @@ function Navigation() {
               className="naviagtion-link"
               to="/howtos"
             >
+              <div className="navigation__item--icon-container">
+                <FiHelpCircle className="navigation__item--icon" />
+              </div>
               How-to's
             </NavLink>
           </li>
@@ -59,6 +71,9 @@ function Navigation() {
               className="naviagtion-link"
               to="/team"
             >
+              <div className="navigation__item--icon-container">
+                <FiUsers className="navigation__item--icon" />
+              </div>
               Team
             </NavLink>
           </li>
@@ -70,6 +85,9 @@ function Navigation() {
               className="naviagtion-link"
               to="/settings"
             >
+              <div className="navigation__item--icon-container">
+                <FiSettings className="navigation__item--icon" />
+              </div>
               Settings
             </NavLink>
           </li>

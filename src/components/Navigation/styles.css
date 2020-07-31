@@ -20,12 +20,23 @@
 }
 
 .naviagtion-link {
+  display: flex;
   color: var(--color-darkgrey-one);
   letter-spacing: -0.3px;
 }
 
 .naviagtion-link:hover {
   color: dodgerblue;
+}
+
+.navigation__item--icon {
+  margin-right: 0.4em;
+}
+
+.navigation__item--icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navigation-list__item--account {
