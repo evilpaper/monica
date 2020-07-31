@@ -37,7 +37,6 @@ function Navigation() {
   }, []);
 
   const isMobile = windowDimension <= 640;
-  console.log(`${windowDimension} ${isMobile}`);
 
   return (
     <Router>
@@ -52,7 +51,7 @@ function Navigation() {
                 to="/"
               >
                 <FiCheckSquare className="mobile-navigation__item--icon" />
-                <span>To-do's</span>
+                <span className="mobile-navigation__item--label">To-do's</span>
               </NavLink>
             </li>
             <li className="mobile-navigation-list__item">
@@ -63,7 +62,7 @@ function Navigation() {
                 to="/howtos"
               >
                 <FiHelpCircle className="mobile-navigation__item--icon" />
-                <span>How-to's</span>
+                <span className="mobile-navigation__item--label">How-to's</span>
               </NavLink>
             </li>
             <li className="mobile-navigation-list__item">
@@ -74,7 +73,7 @@ function Navigation() {
                 to="/team"
               >
                 <FiUsers className="mobile-navigation__item--icon" />
-                <span>Team</span>
+                <span className="mobile-navigation__item--label">Team</span>
               </NavLink>
             </li>
             <li className="mobile-navigation-list__item">
@@ -85,7 +84,7 @@ function Navigation() {
                 to="/settings"
               >
                 <FiSettings className="mobile-navigation__item--icon" />
-                <span>Settings</span>
+                <span className="mobile-navigation__item--label">Settings</span>
               </NavLink>
             </li>
           </ul>
