@@ -11,8 +11,9 @@
   color: var(--color-lightgrey-one);
   margin-top: 4em;
   font-size: 3em;
-  font-weight: 500;
+
   line-height: 1.2em;
+  letter-spacing: -0.03em;
 }
 
 .landing-header span {
@@ -25,8 +26,8 @@
   color: var(--color-lightgrey-one);
   margin-top: 1em;
   max-width: 60%;
-  font-size: 1.3em;
-  line-height: 1.5em;
+  font-size: 1.4em;
+  line-height: 1.4em;
 }
 
 .landing-cta {
