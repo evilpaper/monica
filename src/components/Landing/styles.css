@@ -29,14 +29,13 @@
 }
 
 .landing-cta {
-  border-radius: 2em;
+  color: var(--color-black);
   background-color: var(--color-turquoise);
   border: 2px solid var(--color-turquoise);
-  color: var(--color-black);
+  border-radius: 2em;
   margin-top: 3em;
-  /* Remove this later when you have cleaned up global style and namespace*/
-  opacity: 1;
-  max-width: 14em;
+  padding: 0.8em 2em;
+  font-weight: 700;
 }
 
 .landing-cta:hover {
@@ -65,7 +64,6 @@
     font-size: 1em;
   }
   .landing-cta {
-    max-width: 100%;
     width: 100%;
   }
 }

@@ -32,11 +32,11 @@
   display: inline-block;
 }
 
-label {
+.sign-up-form__label {
   color: var(--color-black);
 }
 
-input {
+.sign-up-form__input {
   height: 3em;
   width: 100%;
   vertical-align: middle;
@@ -47,12 +47,12 @@ input {
   border: 2px solid var(--color-lightgrey-three);
 }
 
-input::placeholder {
+.sign-up-form__input::placeholder {
   font-size: 1em;
   color: darkgrey;
 }
 
-button {
+.sign-up-form__button {
   font-weight: 700;
   font-size: 1rem;
   height: 3.5em;

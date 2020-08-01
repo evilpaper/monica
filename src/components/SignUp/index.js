@@ -1,28 +1,3 @@
-import React from "react";
+import SignUp from "./SignUp.jsx";
 
-export default function SignUp() {
-  return (
-    <section className="sign-up-page">
-      <form className="sign-up-form stack">
-        <h1 className="sign-up-header">Create account to save your data</h1>
-        <div className="small-stack">
-          <label for="email">Email</label>
-          <input
-            name="email"
-            type="email"
-            placeholder="you@example.com"
-          ></input>
-        </div>
-        <div className="small-stack">
-          <label>Password</label>
-          <input
-            name="password"
-            type="password"
-            placeholder="Enter 8 characters or more"
-          ></input>
-        </div>
-        <button>Create account</button>
-      </form>
-    </section>
-  );
-}
+export default SignUp;
