@@ -3,7 +3,7 @@ import React from "react";
 export default function Settings() {
   return (
     <section>
-      <h1>Settings.</h1>
+      <h1>Bussines.</h1>
       <p className="general-copy">List of settings.</p>
       <ul>
         <li>

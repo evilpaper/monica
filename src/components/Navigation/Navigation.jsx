@@ -10,7 +10,8 @@ import {
   FiCheckSquare,
   FiHelpCircle,
   FiUsers,
-  FiSettings,
+  FiHome,
+  FiUser,
 } from "react-icons/fi";
 import Todos from "../Todos";
 import Howtos from "../Howtos";
@@ -51,7 +52,7 @@ function Navigation() {
                 to="/"
               >
                 <FiCheckSquare className="mobile-navigation__item--icon" />
-                <span className="mobile-navigation__item--label">To-do's</span>
+                <span className="mobile-navigation__item--label">To-do</span>
               </NavLink>
             </li>
             <li className="mobile-navigation-list__item">
@@ -62,7 +63,7 @@ function Navigation() {
                 to="/howtos"
               >
                 <FiHelpCircle className="mobile-navigation__item--icon" />
-                <span className="mobile-navigation__item--label">How-to's</span>
+                <span className="mobile-navigation__item--label">How-to</span>
               </NavLink>
             </li>
             <li className="mobile-navigation-list__item">
@@ -83,8 +84,19 @@ function Navigation() {
                 className="mobile-navigation-link"
                 to="/settings"
               >
-                <FiSettings className="mobile-navigation__item--icon" />
-                <span className="mobile-navigation__item--label">Settings</span>
+                <FiHome className="mobile-navigation__item--icon" />
+                <span className="mobile-navigation__item--label">Unit</span>
+              </NavLink>
+            </li>
+            <li className="mobile-navigation-list__item">
+              <NavLink
+                exact={true}
+                activeClassName="is-active"
+                className="mobile-navigation-link"
+                to="/Account"
+              >
+                <FiUser className="mobile-navigation__item--icon" />
+                <span className="mobile-navigation__item--label">You</span>
               </NavLink>
             </li>
           </ul>
@@ -152,9 +164,9 @@ function Navigation() {
                 to="/settings"
               >
                 <div className="navigation__item--icon-container">
-                  <FiSettings className="navigation__item--icon" />
+                  <FiHome className="navigation__item--icon" />
                 </div>
-                Settings
+                Unit
               </NavLink>
             </li>
             <li className="navigation-list__item navigation-list__item--account">
