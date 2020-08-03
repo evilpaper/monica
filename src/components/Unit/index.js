@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function Settings() {
+export default function Unit() {
   return (
     <section>
-      <h1>Bussines.</h1>
-      <p className="general-copy">List of settings.</p>
+      <h1>Unit.</h1>
+      <p className="general-copy">List of settings for the unit.</p>
       <ul>
         <li>
           <p>· Opening hours.</p>

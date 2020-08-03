@@ -16,7 +16,7 @@ import {
 import Todos from "../Todos";
 import Howtos from "../Howtos";
 import Team from "../Team";
-import Settings from "../Settings";
+import Unit from "../Unit";
 import Account from "../Account";
 import SignIn from "../SignIn";
 import SignUp from "../SignUp";
@@ -82,7 +82,7 @@ function Navigation() {
                 exact={true}
                 activeClassName="is-active"
                 className="mobile-navigation-link"
-                to="/settings"
+                to="/unit"
               >
                 <FiHome className="mobile-navigation__item--icon" />
                 <span className="mobile-navigation__item--label">Unit</span>
@@ -161,7 +161,7 @@ function Navigation() {
               <NavLink
                 activeClassName="is-active"
                 className="naviagtion-link"
-                to="/settings"
+                to="/unit"
               >
                 <div className="navigation__item--icon-container">
                   <FiHome className="navigation__item--icon" />
@@ -189,8 +189,8 @@ function Navigation() {
         <Route path="/team">
           <Team />
         </Route>
-        <Route path="/settings">
-          <Settings />
+        <Route path="/unit">
+          <Unit />
         </Route>
         <Route path="/account">
           <Account />
