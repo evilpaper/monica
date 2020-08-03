@@ -155,8 +155,6 @@ function Navigation() {
                 Team
               </NavLink>
             </li>
-          </ul>
-          <ul className="navigation-list">
             <li className="navigation-list__item">
               <NavLink
                 activeClassName="is-active"
@@ -169,6 +167,8 @@ function Navigation() {
                 Unit
               </NavLink>
             </li>
+          </ul>
+          <ul className="navigation-list">
             <li className="navigation-list__item navigation-list__item--account">
               <NavLink
                 activeClassName="is-active"

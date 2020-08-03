@@ -58,6 +58,10 @@ p {
   margin-top: 2em;
 }
 
+.general-specification-list-item {
+  padding-top: 0.6em;
+}
+
 @media (max-width: 1800px) {
 }
 
