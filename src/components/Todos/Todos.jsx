@@ -7,15 +7,26 @@ export default function Todos() {
       <p className="general-copy">
         Lists of tasks for selected day, default = today.
       </p>
-      <ul>
-        <li className="general-specification-list-item">
-          <p>· Tasks are group in categories.</p>
+      <ul className="task-list stack">
+        <li>
+          <button className="task-category">
+            <p>Cold Storage Checks</p>
+          </button>
         </li>
-        <li className="general-specification-list-item">
-          <p>· Task should be able to completed.</p>
+        <li>
+          <button className="task-category">
+            <p>Cleaning</p>
+          </button>
         </li>
-        <li className="general-specification-list-item">
-          <p>· Tasks can have input values.</p>
+        <li>
+          <button className="task-category">
+            <p>Preparation Checks</p>
+          </button>
+        </li>
+        <li>
+          <button className="task-category">
+            <p>Communcation with law enforcer</p>
+          </button>
         </li>
       </ul>
     </section>

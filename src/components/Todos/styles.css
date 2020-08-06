@@ -1,0 +1,12 @@
+.stack > * + * {
+  margin-top: 2rem;
+}
+
+.task-category {
+  width: 90%;
+  max-width: 100%;
+  text-align: left;
+  padding: 1em;
+  border-radius: 10px;
+  border: none;
+}
