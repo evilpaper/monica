@@ -8,13 +8,12 @@
 @import "./components/Todos/styles.css";
 
 :root {
-  --color-base: #5000dc;
   --color-turquoise: hsl(158, 100%, 50%);
-  --color-black: #040921;
-  --color-contrast: #ff328c;
+  --color-midnightblue: hsl(251, 88%, 12%);
+  --color-pink: hsl(334, 100%, 67%);
 
   --color-brand-dark: hsl(10, 10, 10);
-  --color-brand-main: hsl(10, 10, 10);
+  --color-brand-main: hsl(158, 100%, 50%);
   --color-brand-bright: hsl(10, 10, 10);
   --color-brand-pastel: hsl(10, 10, 10);
   --color-highlight-dark: hsl(10, 10, 10);
@@ -39,6 +38,7 @@
 section {
   padding: 4em 6em;
   min-height: 100vh;
+  background-color: var(--color-lightgrey-one);
 }
 
 h1 {

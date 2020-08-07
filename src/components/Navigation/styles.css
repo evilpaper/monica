@@ -4,6 +4,7 @@
   justify-content: space-between;
   padding: 1.4em 4em;
   border-bottom: 1px solid var(--color-lightgrey-three);
+  background-color: white;
 }
 
 .navigation-logo {
@@ -26,7 +27,7 @@
 }
 
 .naviagtion-link:hover {
-  color: dodgerblue;
+  color: var(--color-turquoise);
 }
 
 .navigation__item--icon {
@@ -42,11 +43,11 @@
 .navigation-list__item--account {
   margin-right: 0;
   border-radius: 50px;
-  border: 1px solid var(--color-base);
+  border: 1px solid var(--color-lightgrey-three);
 }
 
 .navigation-list__item--account > .naviagtion-link {
-  color: var(--color-base);
+  color: var(--color-midnightblue);
 }
 
 /* Mobile navigation */
@@ -55,8 +56,8 @@
   position: fixed;
   width: 100vw;
   bottom: 0;
-  border-top: 1px solid var(--color-lightgrey-three);
-  background-color: var(--color-lightgrey-one);
+  border-top: 1px solid var(--color-lightgrey-two);
+  background-color: white;
   z-index: 100;
 }
 
@@ -87,5 +88,5 @@
 /* Active state */
 
 .is-active {
-  color: var(--color-base);
+  color: var(--color-midnightblue);
 }
