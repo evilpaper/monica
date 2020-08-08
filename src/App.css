@@ -8,19 +8,20 @@
 @import "./components/Todos/styles.css";
 
 :root {
-  --color-turquoise: hsl(158, 100%, 50%);
-  --color-midnightblue: hsl(251, 88%, 12%);
-  --color-pink: hsl(334, 100%, 67%);
-  --color-pink-dark: hsl(346, 100%, 62%);
+  --color-cucumber-dark: hsl(158, 92%, 30%);
+  --color-cucumber-main: hsl(158, 100%, 50%);
+  --color-cucumber-bright: hsl(160, 100%, 78%);
+  --color-cucumber-pastel: hsl(158, 100%, 90%);
 
-  --color-brand-dark: hsl(10, 10, 10);
-  --color-brand-main: hsl(158, 100%, 50%);
-  --color-brand-bright: hsl(10, 10, 10);
-  --color-brand-pastel: hsl(10, 10, 10);
-  --color-highlight-dark: hsl(10, 10, 10);
-  --color-highlight-main: hsl(10, 10, 10);
-  --color-highlight-bright: hsl(10, 10, 10);
-  --color-highlight-pastel: hsl(10, 10, 10);
+  --color-radish-dark: hsl(338, 94%, 34%);
+  --color-radish-main: hsl(338, 98%, 60%);
+  --color-radish-bright: hsl(342, 100%, 78%);
+  --color-radish-pastel: hsl(338, 100%, 92%);
+
+  --color-aubergine-dark: hsl(251, 88%, 12%);
+  --color-aubergine-main: hsl(251, 100%, 50%);
+  --color-aubergine-bright: hsl(251, 100%, 78%);
+  --color-aubergine-pastel: hsl(251, 100%, 90%);
 
   --color-lightgrey-one: hsl(240, 24%, 96%);
   --color-lightgrey-two: hsl(240, 11%, 91%);

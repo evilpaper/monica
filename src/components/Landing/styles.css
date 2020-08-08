@@ -17,7 +17,7 @@
 }
 
 .landing-header span {
-  color: var(--color-turquoise);
+  color: var(--color-cucumber-main);
 }
 
 .landing-copy {
@@ -31,9 +31,9 @@
 }
 
 .landing-cta {
-  color: var(--color-black);
-  background-color: var(--color-turquoise);
-  border: 2px solid var(--color-turquoise);
+  color: var(--color-lightgrey-one);
+  background-color: var(--color-radish-main);
+  border: 2px solid var(--color-radish-main);
   border-radius: 2em;
   margin-top: 3em;
   padding: 0.8em 2em;

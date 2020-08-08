@@ -27,7 +27,7 @@
 }
 
 .naviagtion-link:hover {
-  color: var(--color-turquoise);
+  color: var(--color-aubergine-dark);
 }
 
 .navigation__item--icon {
@@ -47,7 +47,7 @@
 }
 
 .navigation-list__item--account > .naviagtion-link {
-  color: var(--color-midnightblue);
+  color: var(--color-aubergine-dark);
 }
 
 /* Mobile navigation */
@@ -88,5 +88,5 @@
 /* Active state */
 
 .is-active {
-  color: var(--color-pink-dark);
+  color: var(--color-radish-main);
 }
