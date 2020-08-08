@@ -23,6 +23,9 @@
   --color-aubergine-bright: hsl(251, 100%, 78%);
   --color-aubergine-pastel: hsl(251, 100%, 90%);
 
+  --color-white: hsl(0, 0%, 100%);
+  --color-black: hsl(0, 100%, 0%);
+
   --color-lightgrey-one: hsl(240, 24%, 96%);
   --color-lightgrey-two: hsl(240, 11%, 91%);
   --color-lightgrey-three: hsl(240, 6%, 83%);
@@ -37,8 +40,8 @@
   --color-darkgrey-six: hsl(240, 4%, 4%);
 }
 
-section {
-  padding: 4em 6em;
+article {
+  padding: 4em;
   min-height: 100vh;
   background-color: var(--color-lightgrey-one);
 }
@@ -73,13 +76,13 @@ p {
 }
 
 @media (max-width: 900px) {
-  section {
+  article {
     padding: 3em;
   }
 }
 
 @media (max-width: 600px) {
-  section {
+  article {
     padding: 2em;
   }
 }

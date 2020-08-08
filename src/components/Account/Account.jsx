@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Account() {
   return (
-    <section>
+    <article>
       <h1>Account.</h1>
       <p className="general-copy">List of settings for the user.</p>
       <ul>
@@ -16,6 +16,6 @@ export default function Account() {
           <p>· Signout.</p>
         </li>
       </ul>
-    </section>
+    </article>
   );
 }

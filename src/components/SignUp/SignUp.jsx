@@ -2,7 +2,7 @@ import React from "react";
 
 function SignUp() {
   return (
-    <section className="sign-up-page">
+    <article className="sign-up-page">
       <form className="sign-up-form stack">
         <h1 className="sign-up-header">Create account to save your data</h1>
         <div className="small-stack">
@@ -27,7 +27,7 @@ function SignUp() {
         </div>
         <button className="sign-up-form__button">Create account</button>
       </form>
-    </section>
+    </article>
   );
 }
 

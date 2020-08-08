@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Unit() {
   return (
-    <section>
+    <article>
       <h1>Unit.</h1>
       <p className="general-copy">List of settings for the unit.</p>
       <ul>
@@ -19,6 +19,6 @@ export default function Unit() {
           <p>· Billings (for account owner).</p>
         </li>
       </ul>
-    </section>
+    </article>
   );
 }

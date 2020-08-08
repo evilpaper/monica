@@ -7,7 +7,7 @@ export default function Landing(props) {
   }
 
   return (
-    <section className="landing-section">
+    <article className="landing-section">
       <img className="landing-logo" src={logo} alt="monica logo"></img>
       <h1 className="landing-header">
         <span>Fastest </span> way to comply
@@ -22,6 +22,6 @@ export default function Landing(props) {
       <button onClick={onButtonClick} className="landing-cta">
         TRY MONICA NOW
       </button>
-    </section>
+    </article>
   );
 }

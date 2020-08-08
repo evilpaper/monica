@@ -2,33 +2,17 @@ import React from "react";
 
 export default function Todos() {
   return (
-    <section>
-      <h1>To Do's.</h1>
-      <p className="general-copy">
-        Lists of tasks for selected day, default = today.
-      </p>
-      <ul className="task-list stack">
-        <li>
-          <button className="task-category">
-            <p>Cold Storage Checks</p>
-          </button>
-        </li>
-        <li>
-          <button className="task-category">
-            <p>Cleaning</p>
-          </button>
-        </li>
-        <li>
-          <button className="task-category">
-            <p>Preparation Checks</p>
-          </button>
-        </li>
-        <li>
-          <button className="task-category">
-            <p>Communcation with law enforcer</p>
-          </button>
-        </li>
-      </ul>
-    </section>
+    <article>
+      <h3 className="unit-name">Greasy Spoon</h3>
+      <h1 className="date">25 AUG</h1>
+      <section className="list">
+        <h2 className="list-name">Cleaning</h2>
+        <h4 className="tasks-status">
+          <span className="tasks-status-figure">5</span> tasks left
+        </h4>
+        <p className="estimated-time">Should take about 5 mins</p>
+        <button className="list-button--open ">FIX IT</button>
+      </section>
+    </article>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Team() {
   return (
-    <section>
+    <article>
       <h1>Team.</h1>
       <p className="general-copy">List of users.</p>
       <ul>
@@ -17,6 +17,6 @@ export default function Team() {
           </p>
         </li>
       </ul>
-    </section>
+    </article>
   );
 }
