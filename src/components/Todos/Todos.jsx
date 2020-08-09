@@ -17,8 +17,9 @@ export default function Todos() {
         </div>
         <div className="list-progress-bar"></div>
         <p className="estimated-time">About 5 mins to fix</p>
+        <p className="estimated-time">Daily · Completed yesterday by Lisa</p>
         <div className="list-button--container">
-          <button className="list-button--open ">Do it</button>
+          <button className="list-button--open ">Open tasks</button>
         </div>
       </section>
     </article>
