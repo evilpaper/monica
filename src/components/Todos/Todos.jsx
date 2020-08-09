@@ -6,12 +6,20 @@ export default function Todos() {
       <h3 className="unit-name">Greasy Spoon</h3>
       <h1 className="date">25 AUG</h1>
       <section className="list">
-        <h2 className="list-name">Cleaning</h2>
-        <h4 className="tasks-status">
-          <span className="tasks-status-figure">5</span> tasks left
-        </h4>
-        <p className="estimated-time">Should take about 5 mins</p>
-        <button className="list-button--open ">FIX IT</button>
+        <div className="list-header">
+          <h2 className="list-name">Cleaning</h2>
+          <h4 className="tasks-status">
+            <span className="tasks-status-statustext">
+              Status: 4 tasks left
+            </span>
+            <span className="tasks-status-percentage-left">60%</span>
+          </h4>
+        </div>
+        <div className="list-progress-bar"></div>
+        <p className="estimated-time">About 5 mins to fix</p>
+        <div className="list-button--container">
+          <button className="list-button--open ">Do it</button>
+        </div>
       </section>
     </article>
   );

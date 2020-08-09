@@ -15,10 +15,16 @@
 }
 
 .list {
-  padding: 1em;
   background-color: var(--color-white);
   border-radius: 1em;
   box-shadow: 0 4px 6px hsla(251, 88%, 12%, 0.2);
+}
+
+.list-header {
+  background-color: var(--color-radish-pastel);
+  color: var(--color-radish-main);
+  padding: 1em;
+  border-radius: 1em 1em 0 0;
 }
 
 .list-name {
@@ -26,36 +32,48 @@
   font-size: 1em;
   font-weight: 500;
   letter-spacing: 0.4px;
-  color: var(--color-darkgrey-one);
   text-transform: uppercase;
 }
 
 .tasks-status {
-  font-weight: 500;
-  padding: 0 0 1em 0;
-  color: var(--color-darkgrey-one);
+  display: flex;
+  justify-content: space-between;
 }
 
-.tasks-status-figure {
-  font-weight: 900;
-  font-size: 3em;
-  color: var(--color-radish-main);
+.tasks-status-statustext,
+.tasks-status-percentage-left {
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.8em;
+}
+
+.list-progress-bar {
+  height: 2px;
+  background-color: var(--color-radish-main);
+  width: 60%;
 }
 
 .estimated-time {
   padding: 0.2em 0 1em 0;
+  padding: 1em;
   font-size: 1em;
   text-align: center;
   font-family: "Inter", sans-serif;
   color: var(--color-lightgrey-five);
 }
 
+.list-button--container {
+  padding: 2em;
+}
+
 .list-button--open {
   padding: 0.8em 3em;
   font-weight: 700;
   border-radius: 4em;
-  background-color: var(--color-radish-main);
+  background-color: var(--color-white);
   border: 2px solid var(--color-radish-main);
-  color: var(--color-lightgrey-one);
+  color: var(--color-radish-main);
   width: 100%;
+  text-transform: uppercase;
 }
