@@ -40,7 +40,7 @@
 }
 
 .to-do-heading {
-  font-size: 1.8em;
+  font-size: 2em;
   color: var(--color-aubergine-dark);
 }
 
@@ -50,7 +50,7 @@
   justify-content: center;
   padding: 0.4em 1em 0.3em 0.6em;
   background-color: lightgoldenrodyellow;
-  color: goldenrod;
+  color: chocolate;
   border-radius: 6px;
 }
 .to-do-todays-status__icon {
@@ -74,6 +74,7 @@
 
 .to-do-checklist {
   background-color: var(--color-white);
+  background-color: var(--color-aubergine-dark);
   border-radius: 1em;
   box-shadow: 0 4px 6px hsla(251, 88%, 12%, 0.2);
   padding: 1em;
@@ -82,6 +83,7 @@
 
 .to-do-checklist-name {
   color: var(--color-aubergine-dark);
+  color: white;
   font-size: 1em;
   font-weight: 600;
   letter-spacing: 0.4px;
@@ -91,6 +93,7 @@
 
 .to-do-checklist-status {
   color: var(--color-darkgrey-one);
+  color: var(--color-aubergine-pastel);
   display: flex;
   justify-content: space-between;
   font-family: "Inter", sans-serif;
@@ -110,26 +113,26 @@
   text-align: center;
   width: var(--avatar-size);
   display: inline-block;
-  border: 2px solid white;
+  border: 2px solid var(--color-aubergine-dark);
 }
 
 .dot1 {
-  background-color: var(--color-radish-main);
+  background-color: coral;
 }
 
 .dot2 {
-  background-color: var(--color-aubergine-dark);
+  background-color: lightseagreen;
   left: -10px;
 }
 
 .dot3 {
-  background-color: var(--color-cucumber-main);
+  background-color: crimson;
   left: -20px;
 }
 
 .initials {
   font-family: "Inter", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: calc(var(--avatar-size) / 2.6);
   line-height: 1;
   position: relative;
@@ -146,9 +149,9 @@
   font-size: 0.8em;
   font-weight: 700;
   border-radius: 4em;
-  background-color: var(--color-white);
-  border: 1px solid var(--color-radish-main);
-  color: var(--color-radish-main);
+  background-color: white;
+  border: 1px solid white;
+  color: var(--color-aubergine-dark);
   width: 100%;
   text-transform: uppercase;
 }

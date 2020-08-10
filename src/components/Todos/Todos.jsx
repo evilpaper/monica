@@ -16,8 +16,10 @@ export default function Todos() {
         <h1 className="to-do-heading">Today</h1>
         <div>
           <div className="to-do-todays-status">
-            <FiActivity className="to-do-todays-status__icon" />
-            <span className="to-do-todays-status__text">60% · Working on it</span>
+            {/* <FiActivity className="to-do-todays-status__icon" /> */}
+            <span className="to-do-todays-status__text">
+              60% · Working on it
+            </span>
           </div>
           <div className="to-do-todays-status__progressbar"></div>
         </div>
@@ -26,9 +28,9 @@ export default function Todos() {
         <h2 className="to-do-checklist-name">Daily Checks</h2>
         <h4 className="to-do-checklist-status">
           <span className="to-do-checklist-status__completion">
-            4 Tasks left
+            5 min to complete
           </span>
-          <span className="to-do-checklist-status__est-time">5 mins</span>
+          <span className="to-do-checklist-status__est-time"></span>
         </h4>
         <div className="to-do-checklist-users">
           <span class="dot dot1">
