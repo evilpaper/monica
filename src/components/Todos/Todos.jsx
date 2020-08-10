@@ -1,5 +1,5 @@
 import React from "react";
-import { FiActivity, FiCalendar } from "react-icons/fi";
+import { FiCalendar } from "react-icons/fi";
 
 export default function Todos() {
   return (
