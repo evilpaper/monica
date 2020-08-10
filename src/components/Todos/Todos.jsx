@@ -9,21 +9,24 @@ export default function Todos() {
         <h3 className="unit-name">Greasy Spoon</h3>
         <button className="to-do-calendar-button">
           <FiCalendar className="to-do-calendar-button__icon" />
-          Open calendar
+          View calendar
         </button>
       </section>
       <div className="to-do-header">
         <h1 className="to-do-heading">Today</h1>
-        <div className="to-do-todays-status">
-          <FiActivity className="to-do-todays-status__icon" />
-          <span className="to-do-todays-status__text">Working on it</span>
+        <div>
+          <div className="to-do-todays-status">
+            <FiActivity className="to-do-todays-status__icon" />
+            <span className="to-do-todays-status__text">60% · Working on it</span>
+          </div>
+          <div className="to-do-todays-status__progressbar"></div>
         </div>
       </div>
       <section className="to-do-checklist">
         <h2 className="to-do-checklist-name">Daily Checks</h2>
         <h4 className="to-do-checklist-status">
           <span className="to-do-checklist-status__completion">
-            60% · 4 Tasks left
+            4 Tasks left
           </span>
           <span className="to-do-checklist-status__est-time">5 mins</span>
         </h4>

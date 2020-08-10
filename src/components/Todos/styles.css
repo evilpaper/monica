@@ -22,8 +22,8 @@
   align-items: center;
   border-radius: 2em;
   font-size: 0.8em;
-  color: var(--color-lightgrey-five);
-  border: 1px solid var(--color-lightgrey-five);
+  color: dodgerblue;
+  border: none;
   padding: 0.2em 0.8em;
   background-color: transparent;
 }
@@ -63,6 +63,13 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 0.8em;
+}
+
+.to-do-todays-status__progressbar {
+  height: 2px;
+  color: goldenrod;
+  width: 60%;
+  background-color: goldenrod;
 }
 
 .to-do-checklist {
