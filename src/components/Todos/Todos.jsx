@@ -1,31 +1,50 @@
 import React from "react";
-import { FiActivity } from "react-icons/fi";
+import { FiActivity, FiCalendar } from "react-icons/fi";
 
 export default function Todos() {
   return (
     <article>
-      <h3 className="unit-name">Greasy Spoon</h3>
-      <h1 className="date">25 AUG</h1>
-      <section className="list">
-        <div className="list-header">
-          <h4 className="tasks-status">
-            <div className="tasks-status-heading">
-              <FiActivity className="tasks-status-icon" />
-              <span className="tasks-status-statustext">
-                Status: 4 Tasks Left
-              </span>
-            </div>
-            <span className="tasks-status-percentage-left">60%</span>
-          </h4>
+      <section className="top-bar">
+        {" "}
+        <h3 className="unit-name">Greasy Spoon</h3>
+        <button className="to-do-calendar-button">
+          <FiCalendar className="to-do-calendar-button__icon" />
+          Open calendar
+        </button>
+      </section>
+      <div className="to-do-header">
+        <h1 className="to-do-heading">Today</h1>
+        <div className="to-do-todays-status">
+          <FiActivity className="to-do-todays-status__icon" />
+          <span className="to-do-todays-status__text">Working on it</span>
         </div>
-        <div className="list-progress-bar"></div>
-        <h2 className="list-name">Cleaning</h2>
-        <p className="estimated-time">About 5 mins to fix</p>
-        <p className="estimated-time">Daily · Completed yesterday by Lisa</p>
-        <div className="list-button--container">
-          <button className="list-button--open ">Open tasks</button>
+      </div>
+      <section className="to-do-checklist">
+        <h2 className="to-do-checklist-name">Daily Checks</h2>
+        <h4 className="to-do-checklist-status">
+          <span className="to-do-checklist-status__completion">
+            60% · 4 Tasks left
+          </span>
+          <span className="to-do-checklist-status__est-time">5 mins</span>
+        </h4>
+        <div className="to-do-checklist-users">
+          <span class="dot dot1">
+            <span class="initials">PL</span>
+          </span>
+          <span class="dot dot2">
+            <span class="initials">MS</span>
+          </span>
+          <span class="dot dot3">
+            <span class="initials">SH</span>
+          </span>
+        </div>
+        <div className="to-do-checklist-button-container">
+          <button className="to-do-chacklist-list-button">Go to tasks</button>
         </div>
       </section>
+      <div className="to-do-header">
+        <h1 className="to-do-heading">Upcoming</h1>
+      </div>
     </article>
   );
 }

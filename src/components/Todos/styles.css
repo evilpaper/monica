@@ -1,94 +1,146 @@
+:root {
+  --avatar-size: 36px;
+}
+
 .stack > * + * {
   margin-top: 2rem;
 }
 
-.unit-name {
-  padding: 0 0 1em 0.2;
-  font-weight: 400;
-  color: var(--color-darkgrey-one);
-}
-
-.date {
-  padding: 0.2em 0 0.2em 0;
-  font-size: 2.5em;
-  color: var(--color-aubergine-dark);
-}
-
-.list {
-  background-color: var(--color-white);
-  border-radius: 1em;
-  box-shadow: 0 4px 6px hsla(251, 88%, 12%, 0.2);
-}
-
-.list-header {
-  /* background-color: var(--color-radish-pastel); */
-  /* background-color: var(--color-aubergine-dark); */
-  color: var(--color-radish-main);
-  /* color: white; */
-  padding: 0.8em 1em 0.6em 1em;
-  border-radius: 1em 1em 0 0;
-}
-
-.list-name {
-  color: var(--color-aubergine-dark);
-  padding: 1em;
-  font-size: 1em;
-  font-weight: 600;
-  letter-spacing: 0.4px;
-  text-transform: uppercase;
-}
-
-.tasks-status {
+.top-bar {
   display: flex;
   justify-content: space-between;
 }
 
-.tasks-status-heading {
-  display: flex;
-  align-items: center;
+.unit-name {
+  font-size: 0.9em;
+  font-weight: 400;
+  color: var(--color-darkgrey-one);
 }
 
-.tasks-status-icon {
-  margin-right: 0.4em;
+.to-do-calendar-button {
+  display: flex;
+  align-items: center;
+  border-radius: 2em;
+  font-size: 0.8em;
+  color: var(--color-lightgrey-five);
+  border: 1px solid var(--color-lightgrey-five);
+  padding: 0.2em 0.8em;
+  background-color: transparent;
+}
+
+.to-do-calendar-button__icon {
+  margin-right: 0.2em;
+}
+
+.to-do-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8em 0 0.8em 0;
+}
+
+.to-do-heading {
+  font-size: 1.8em;
   color: var(--color-aubergine-dark);
 }
 
-.tasks-status-statustext,
-.tasks-status-percentage-left {
+.to-do-todays-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4em 1em 0.3em 0.6em;
+  background-color: lightgoldenrodyellow;
+  color: goldenrod;
+  border-radius: 6px;
+}
+.to-do-todays-status__icon {
+  margin-right: 0.4em;
+  font-size: 0.8em;
+  color: goldenrod;
+}
+
+.to-do-todays-status__text {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 0.8em;
 }
 
-.tasks-status-percentage-left {
-  font-size: 0.9em;
+.to-do-checklist {
+  background-color: var(--color-white);
+  border-radius: 1em;
+  box-shadow: 0 4px 6px hsla(251, 88%, 12%, 0.2);
+  padding: 1em;
+  max-width: 80%;
+}
+
+.to-do-checklist-name {
   color: var(--color-aubergine-dark);
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  padding: 0.6em 0;
 }
 
-.list-progress-bar {
-  height: 3px;
-  background-color: var(--color-radish-main);
-  width: 60%;
-}
-
-.estimated-time {
-  padding: 0.2em 0 0.2em 0;
-  font-size: 0.9em;
-  text-align: center;
+.to-do-checklist-status {
+  color: var(--color-darkgrey-one);
+  display: flex;
+  justify-content: space-between;
   font-family: "Inter", sans-serif;
-  color: var(--color-lightgrey-five);
+  font-weight: 400;
+  font-size: 0.8em;
+  padding: 0.6em 0;
 }
 
-.list-button--container {
-  padding: 2em;
+.to-do-checklist-users {
+  padding: 0.6em 0;
 }
 
-.list-button--open {
-  padding: 0.8em 3em;
+.dot {
+  border-radius: 50%;
+  position: relative;
+  height: var(--avatar-size);
+  text-align: center;
+  width: var(--avatar-size);
+  display: inline-block;
+  border: 2px solid white;
+}
+
+.dot1 {
+  background-color: var(--color-radish-main);
+}
+
+.dot2 {
+  background-color: var(--color-aubergine-dark);
+  left: -10px;
+}
+
+.dot3 {
+  background-color: var(--color-cucumber-main);
+  left: -20px;
+}
+
+.initials {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: calc(var(--avatar-size) / 2.6);
+  line-height: 1;
+  position: relative;
+  top: calc(var(--avatar-size) / 6.8); /* 25% of parent */
+  color: var(--color-lightgrey-one);
+}
+
+.to-do-checklist-button-container {
+  padding: 1em 0;
+}
+
+.to-do-chacklist-list-button {
+  padding: 0.8em 0.2em;
+  font-size: 0.8em;
   font-weight: 700;
   border-radius: 4em;
   background-color: var(--color-white);
-  border: 2px solid var(--color-radish-main);
+  border: 1px solid var(--color-radish-main);
   color: var(--color-radish-main);
   width: 100%;
   text-transform: uppercase;
