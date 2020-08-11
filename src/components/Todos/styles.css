@@ -22,7 +22,7 @@
   align-items: center;
   border-radius: 2em;
   font-size: 1em;
-  color: var(--color-aubergine-main);
+  color: dodgerblue;
   border: none;
   background-color: transparent;
 }
@@ -165,21 +165,29 @@
 }
 
 .to-do-chacklist-list-button__assign {
-  padding: 0.6em 1.6em;
+  margin: 0 0.2em;
+  padding: 0.6em;
   font-size: 0.8em;
   font-weight: 600;
   border-radius: 4em;
   background-color: white;
-  border: 2px solid var(--color-aubergine-dark);
-  color: var(--color-aubergine-dark);
+  border: 1px solid var(--color-radish-main);
+  color: var(--color-radish-main);
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
 }
 
 .to-do-chacklist-list-button {
-  padding: 0.6em 1.6em;
+  margin: 0 0.2em;
+  padding: 0.6em;
   font-size: 0.8em;
   font-weight: 600;
   border-radius: 4em;
   background-color: var(--color-radish-main);
   border: 2px solid var(--color-radish-main);
   color: white;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
 }

@@ -49,9 +49,7 @@ export default function Todos() {
           <span className="to-do-checklist-status__est-time"></span>
         </h4>
         <div className="to-do-checklist-button-container">
-          <button className="to-do-chacklist-list-button__assign">
-            Assign
-          </button>
+          <button className="to-do-chacklist-list-button__assign">Alert</button>
           <button className="to-do-chacklist-list-button">Go to tasks</button>
         </div>
       </section>
