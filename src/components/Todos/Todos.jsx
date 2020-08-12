@@ -39,8 +39,8 @@ export default function Todos() {
             <span class="initials">SH</span>
           </span>
         </div> */}
-        <div class="progress_container">
-          <div class="progress-bar"></div>
+        <div className="progress_container">
+          <div className="progress-bar"></div>
         </div>
         <h4 className="to-do-checklist-responsible">
           <span className="to-do-checklist-responsible__text">

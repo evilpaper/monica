@@ -77,7 +77,10 @@
   box-shadow: 0 4px 6px hsla(251, 88%, 12%, 0.2);
   padding: 1em;
   max-width: 80%;
-  /* border-left: 0.8em solid var(--color-radish-main); */
+  box-shadow: 0 1px 2.2px rgba(0, 0, 0, 0.051),
+    0 2.3px 5.3px rgba(0, 0, 0, 0.059), 0 4.4px 10px rgba(0, 0, 0, 0.06),
+    0 7.8px 17.9px rgba(0, 0, 0, 0.059), 0 14.6px 33.4px rgba(0, 0, 0, 0.059),
+    0 35px 80px rgba(0, 0, 0, 0.07);
 }
 
 .to-do-checklist-name {
@@ -165,7 +168,7 @@
 }
 
 .to-do-chacklist-list-button__assign {
-  margin: 0 0.2em;
+  margin: 0 0.4em;
   padding: 0.6em;
   font-size: 0.8em;
   font-weight: 600;
@@ -179,7 +182,7 @@
 }
 
 .to-do-chacklist-list-button {
-  margin: 0 0.2em;
+  margin: 0 0.4em;
   padding: 0.6em;
   font-size: 0.8em;
   font-weight: 600;
