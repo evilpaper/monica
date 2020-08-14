@@ -1,4 +1,5 @@
 import React from "react";
+import { FiCalendar } from "react-icons/fi";
 
 export default function Todos() {
   return (
@@ -6,7 +7,10 @@ export default function Todos() {
       <section className="top-bar">
         {" "}
         <h3 className="unit-name">Greasy Spoon</h3>
-        <button className="to-do-calendar-button">View calendar</button>
+        <button className="to-do-calendar-button">
+          <FiCalendar className="to-do-calendar-button__icon" />
+          View calendar
+        </button>
       </section>
       <div className="to-do-header">
         <h1 className="to-do-heading">Today</h1>
@@ -23,10 +27,10 @@ export default function Todos() {
       <section className="to-do-checklist">
         <h2 className="to-do-checklist-name">Daily Checks</h2>
         <h4 className="to-do-checklist-status">
-          <span className="to-do-checklist-status__completion">
-            40% · 5 min to complete
+          <span className="to-do-checklist-status__completion">40%</span>
+          <span className="to-do-checklist-status__est-time">
+            5 min to complete
           </span>
-          <span className="to-do-checklist-status__est-time"></span>
         </h4>
         {/* <div className="to-do-checklist-users">
           <span class="dot dot1">
@@ -44,12 +48,14 @@ export default function Todos() {
         </div>
         <h4 className="to-do-checklist-responsible">
           <span className="to-do-checklist-responsible__text">
-            Responsible · Everyone
+            Responsible: everyone
           </span>
           <span className="to-do-checklist-status__est-time"></span>
         </h4>
         <div className="to-do-checklist-button-container">
-          <button className="to-do-chacklist-list-button__assign">Alert</button>
+          <button className="to-do-chacklist-list-button__assign">
+            Remind
+          </button>
           <button className="to-do-chacklist-list-button">Go to tasks</button>
         </div>
       </section>

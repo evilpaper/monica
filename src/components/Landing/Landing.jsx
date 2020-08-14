@@ -15,7 +15,8 @@ export default function Landing(props) {
         to food safety requirements
       </h1>
       <p className="landing-copy">
-        Pass inspections every time. Be compliant every day.
+        Do you want to pass inspections every time? Stop worring staff and
+        co-workers forget.
         <br />
         Free 14 days trail. You are minutes away too be compliant.
       </p>
