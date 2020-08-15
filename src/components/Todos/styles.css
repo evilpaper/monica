@@ -39,37 +39,17 @@
   padding: 1.8em 0 1.2em 0;
 }
 
+.to-do-main {
+  display: flex;
+}
+
+.to-do-main > section {
+  min-width: 50%;
+}
+
 .to-do-heading {
   font-size: 2em;
   color: var(--color-aubergine-dark);
-}
-
-.to-do-todays-status {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.4em 1em 0.3em 0.6em;
-  background-color: lightgoldenrodyellow;
-  color: chocolate;
-  border-radius: 6px;
-}
-.to-do-todays-status__icon {
-  margin-right: 0.4em;
-  font-size: 0.8em;
-  color: goldenrod;
-}
-
-.to-do-todays-status__text {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 0.8em;
-}
-
-.to-do-todays-status__progressbar {
-  height: 2px;
-  color: goldenrod;
-  width: 60%;
-  background-color: goldenrod;
 }
 
 .to-do-checklist {
@@ -199,4 +179,19 @@
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
+}
+
+@media (max-width: 1800px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 900px) {
+  .to-do-main {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
 }
