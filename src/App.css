@@ -43,7 +43,7 @@
 article {
   padding: 4em;
   min-height: 100vh;
-  background-color: var(--color-lightgrey-two);
+  background-color: var(--color-lightgrey-one);
 }
 
 h1 {

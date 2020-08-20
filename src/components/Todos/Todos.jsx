@@ -46,10 +46,10 @@ export default function Todos() {
           </span>
         </div> */}
             <div className="to-do-checklist-button-container">
-              <button className="to-do-checklist-list-button__assign">
+              <button className="to-do-checklist-list-button to-do-checklist-list-button__tertiary">
                 Remind
               </button>
-              <button className="to-do-checklist-list-button">
+              <button className="to-do-checklist-list-button to-do-checklist-list-button__primary">
                 Go to tasks
               </button>
             </div>
@@ -88,10 +88,10 @@ export default function Todos() {
           </span>
         </div> */}
             <div className="to-do-checklist-button-container">
-              <button className="to-do-checklist-list-button__assign">
+              <button className="to-do-checklist-list-button to-do-checklist-list-button__tertiary">
                 Remind
               </button>
-              <button className="to-do-checklist-list-button to-do-checklist-list-button__upcoming">
+              <button className="to-do-checklist-list-button to-do-checklist-list-button__secondary">
                 Go to tasks
               </button>
             </div>
