@@ -1,5 +1,5 @@
 import React from "react";
-import { FiCalendar } from "react-icons/fi";
+import { FiCalendar, FiBell } from "react-icons/fi";
 
 export default function Todos() {
   return (
@@ -46,7 +46,8 @@ export default function Todos() {
           </span>
         </div> */}
             <div className="to-do-checklist-button-container">
-              <button className="to-do-checklist-list-button to-do-checklist-list-button__tertiary">
+              <button className="to-do-button to-do-checklist-list-button to-do-checklist-list-button__tertiary">
+                <FiBell className="to-do-button__icon" />
                 Remind
               </button>
               <button className="to-do-checklist-list-button to-do-checklist-list-button__primary">
@@ -88,7 +89,8 @@ export default function Todos() {
           </span>
         </div> */}
             <div className="to-do-checklist-button-container">
-              <button className="to-do-checklist-list-button to-do-checklist-list-button__tertiary">
+              <button className="to-do-button to-do-checklist-list-button to-do-checklist-list-button__tertiary">
+                <FiBell className="to-do-button__icon" />
                 Remind
               </button>
               <button className="to-do-checklist-list-button to-do-checklist-list-button__secondary">
