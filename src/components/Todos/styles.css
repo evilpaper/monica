@@ -32,6 +32,10 @@
   margin-right: 0.4em;
 }
 
+.to-do-calendar-button:hover {
+  color: var(--color-radish-main);
+}
+
 .to-do-header {
   display: flex;
   align-items: center;
@@ -111,40 +115,6 @@
 
 .to-do-checklist-users {
   padding: 0.6em 0;
-}
-
-.dot {
-  border-radius: 50%;
-  position: relative;
-  height: var(--avatar-size);
-  text-align: center;
-  width: var(--avatar-size);
-  display: inline-block;
-  border: 2px solid white;
-}
-
-.dot1 {
-  background-color: coral;
-}
-
-.dot2 {
-  background-color: lightseagreen;
-  left: -10px;
-}
-
-.dot3 {
-  background-color: crimson;
-  left: -20px;
-}
-
-.initials {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: calc(var(--avatar-size) / 2.6);
-  line-height: 1;
-  position: relative;
-  top: calc(var(--avatar-size) / 6.8); /* 25% of parent */
-  color: var(--color-lightgrey-one);
 }
 
 .to-do-checklist-button-container {
