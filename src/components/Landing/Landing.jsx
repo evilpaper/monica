@@ -15,10 +15,9 @@ export default function Landing(props) {
         to food safety requirements
       </h1>
       <p className="landing-copy">
-        Pass inspections every time. Automatically onboard your team and secure
-        food safety with minimal effort.
+        Pass inspections every time. Secure food safety with minimal effort.
         <br />
-        Free 14 days trail. You are minutes away from nailing next audit.
+        Free 14 days trail, no credit card needed.
       </p>
       <button onClick={onButtonClick} className="landing-cta">
         TRY MONICA NOW
