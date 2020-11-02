@@ -10,10 +10,10 @@ export default function Landing(props) {
     <article className="landing-section">
       <img className="landing-logo" src={logo} alt="monica logo"></img>
       <h1 className="landing-header">
-        Pass food safety authorities<br/> inspections<span> every</span> time 
+        Pass inspections <br/><span> every</span> time 
       </h1>
       <p className="landing-copy">
-        Easy to use food safety managment system for your cater business.
+        A complete food safety managment system for your cater business setup in 60 seconds.
         <br />
         Free 14 days trail, no credit card needed.
       </p>

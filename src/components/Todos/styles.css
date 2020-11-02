@@ -43,127 +43,6 @@
   padding: 1.8em 0 1.2em 0;
 }
 
-.to-do-main {
-  display: flex;
-}
-
-.to-do-main > section {
-  min-width: 50%;
-}
-
-.to-do-heading {
-  font-size: 2.4em;
-  color: var(--color-aubergine-dark);
-  margin-top: 0.6em;
-}
-
-.to-do-checklist {
-  background-color: var(--color-white);
-  border-radius: 0.6em;
-  box-shadow: 0 6px 8px hsla(251, 88%, 12%, 0.2);
-  padding: 1.3em;
-  max-width: 90%;
-}
-
-.to-do-checklist-name {
-  color: var(--color-aubergine-dark);
-  font-size: 1.4em;
-  font-weight: 700;
-  padding-bottom: 0.6em;
-}
-
-.to-do-checklist-status {
-  color: var(--color-darkgrey-one);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 0.8em;
-  padding: 0.6em 0;
-}
-
-.to-do-checklist-status__completion > span {
-  display: inline-block;
-}
-
-.progress_container {
-  width: 20%;
-  height: 0.2em;
-  background-color: var(--color-lightgrey-two);
-  border-radius: 0.2em;
-}
-
-.progress-bar {
-  height: 100%;
-  width: 40%;
-  background-color: var(--color-lightgrey-five);
-  border-radius: 0.2em;
-}
-
-.to-do-checklist-responsible {
-  color: var(--color-darkgrey-one);
-  display: flex;
-  justify-content: space-between;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 0.8em;
-  padding: 1em 0 0 0;
-}
-
-.to-do-checklist-users {
-  padding: 0.6em 0;
-}
-
-.to-do-checklist-button-container {
-  padding: 1.8em 0 0 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.to-do-checklist-list-button {
-  margin: 0 0.4em;
-  padding: 0.6em;
-  font-weight: 600;
-  font-size: 0.9em;
-  border-radius: 4em;
-  background-color: transparent;
-  border: 2px solid var(--color-lightgrey-five);
-  color: var(--color-aubergine-dark);
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 0;
-}
-
-.to-do-checklist-list-button__primary {
-  color: white;
-  background-color: var(--color-radish-main);
-  border: 1px solid var(--color-radish-main);
-}
-
-.to-do-checklist-list-button__secondary {
-  color: white;
-  background-color: var(--color-aubergine-dark);
-  border: 2px solid var(--color-aubergine-dark);
-}
-
-.to-do-checklist-list-button__tertiary {
-  border: none;
-  color: var(--color-aubergine-dark);
-  background-color: transparent;
-  border: none;
-}
-
-.to-do-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.to-do-button__icon {
-  margin-right: 0.4em;
-}
-
 @media (max-width: 1800px) {
 }
 
@@ -171,9 +50,6 @@
 }
 
 @media (max-width: 900px) {
-  .to-do-main {
-    flex-direction: column;
-  }
 }
 
 @media (max-width: 600px) {
