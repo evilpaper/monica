@@ -25,9 +25,21 @@ export default function Todos() {
             View calendar
           </button>
         </section>
-        <main className="to-do-main">
-        </main>
+          <h1>To do's.</h1>
+            <p className="general-copy">List of how-to's.</p>
+            <ul>
+              <li className="general-specification-list-item">
+                <p>· How-to's can be opened.</p>
+              </li>
+              <li className="general-specification-list-item">
+                <p>· How-to's contain text and images.</p>
+              </li>
+              <li className="general-specification-list-item">
+                <p>· How-to's have a button "read and understood".</p>
+              </li>
+            </ul>
       </article>
+      
     );
   }
 }

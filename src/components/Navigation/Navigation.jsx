@@ -125,9 +125,9 @@ function Navigation() {
                 className="naviagtion-link"
                 to="/"
               >
-                <div className="navigation__item--icon-container">
+                {/* <div className="navigation__item--icon-container">
                   <FiCheckSquare className="navigation__item--icon" />
-                </div>
+                </div> */}
                 To-do's
               </NavLink>
             </li>
@@ -137,9 +137,9 @@ function Navigation() {
                 className="naviagtion-link"
                 to="/howtos"
               >
-                <div className="navigation__item--icon-container">
+                {/* <div className="navigation__item--icon-container">
                   <FiHelpCircle className="navigation__item--icon" />
-                </div>
+                </div> */}
                 How-to's
               </NavLink>
             </li>
@@ -149,9 +149,9 @@ function Navigation() {
                 className="naviagtion-link"
                 to="/team"
               >
-                <div className="navigation__item--icon-container">
+                {/* <div className="navigation__item--icon-container">
                   <FiUsers className="navigation__item--icon" />
-                </div>
+                </div> */}
                 Team
               </NavLink>
             </li>
@@ -161,9 +161,9 @@ function Navigation() {
                 className="naviagtion-link"
                 to="/unit"
               >
-                <div className="navigation__item--icon-container">
+                {/* <div className="navigation__item--icon-container">
                   <FiHome className="navigation__item--icon" />
-                </div>
+                </div> */}
                 Unit
               </NavLink>
             </li>
