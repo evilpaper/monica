@@ -13,7 +13,7 @@ export default function Landing(props) {
         Pass inspections <br/><span> every</span> time 
       </h1>
       <p className="landing-copy">
-        A complete food safety managment system for your cater business setup in 60 seconds.
+        Set up a complete food safety managment system for your cater business setup in 60 seconds.
         <br />
         Free 14 days trail, no credit card needed.
       </p>

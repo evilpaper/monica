@@ -10,7 +10,7 @@
 .landing-header {
   color: var(--color-lightgrey-one);
   margin-top: 4em;
-  font-size: 3em;
+  font-size: 4em;
 
   line-height: 1.2em;
   letter-spacing: -0.03em;
@@ -58,7 +58,7 @@
   }
   .landing-header {
     max-width: 100%;
-    margin-top: 1.4em;
+    margin-top: 2em;
     font-size: 2.4em;
   }
   .landing-copy {
