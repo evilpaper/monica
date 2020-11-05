@@ -20,7 +20,7 @@ import Unit from "../Unit";
 import Account from "../Account";
 import SignIn from "../SignIn";
 import SignUp from "../SignUp";
-import Landing from "../Landing";
+import Landing from "../../pages/Landing";
 
 function Navigation() {
   const [windowDimension, setWindowDimension] = useState(window.innerWidth);
