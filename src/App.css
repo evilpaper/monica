@@ -2,16 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700");
 @import "./utilities/reset.css";
 @import "./components/Button/styles.css";
-@import "./../src/pages/Landing/styles.css";
 @import "./components/Navigation/styles.css";
 @import "./components/SignUp/styles.css";
-@import "./components/Todos/styles.css";
+@import "./pages/Todos/styles.css";
+@import "./pages/Landing/styles.css";
 
 :root {
   --color-cucumber-dark: hsl(158, 92%, 30%);
   --color-cucumber-main: hsl(158, 100%, 50%);
   --color-cucumber-bright: hsl(160, 100%, 78%);
   --color-cucumber-pastel: hsl(158, 100%, 90%);
+
+  --color-blueberry-main: #009de0;
 
   --color-radish-dark: hsl(338, 94%, 34%);
   --color-radish-main: hsl(338, 98%, 60%);
