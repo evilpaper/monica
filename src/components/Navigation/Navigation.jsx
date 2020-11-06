@@ -13,14 +13,15 @@ import {
   FiHome,
   FiUser,
 } from "react-icons/fi";
-import Todos from "../Todos";
-import Howtos from "../Howtos";
-import Team from "../Team";
-import Unit from "../Unit";
-import Account from "../Account";
 import SignIn from "../SignIn";
 import SignUp from "../SignUp";
-import Landing from "../../pages/Landing";
+import Todos from "pages/Todos";
+import Howtos from "pages/Howtos";
+import Team from "pages/Team";
+import Unit from "pages/Unit";
+import Account from "pages/Account";
+
+import Landing from "pages/Landing";
 
 function Navigation() {
   const [windowDimension, setWindowDimension] = useState(window.innerWidth);
