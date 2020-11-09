@@ -119,6 +119,8 @@ function Navigation() {
                 ></img>
               </NavLink>
             </li>
+          </ul>
+          <ul className="navigation-list">
             <li className="navigation-list__item">
               <NavLink
                 exact={true}
@@ -165,7 +167,7 @@ function Navigation() {
                 {/* <div className="navigation__item--icon-container">
                   <FiHome className="navigation__item--icon" />
                 </div> */}
-                Unit
+                Place
               </NavLink>
             </li>
           </ul>

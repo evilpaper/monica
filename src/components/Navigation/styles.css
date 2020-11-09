@@ -18,11 +18,14 @@
 .navigation-list__item {
   margin-right: 3em;
   padding: 0.3em 1.3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .naviagtion-link {
   display: flex;
-  color: var(--color-darkgrey-one);
+  color: var(--color-darkgrey-four);
   letter-spacing: -0.3px;
 }
 
