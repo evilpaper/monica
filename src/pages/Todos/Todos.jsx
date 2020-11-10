@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FiCalendar } from "react-icons/fi";
+import "./styles.css";
 
 export default function Todos() {
   const [showCalendar, setShowCalendar] = useState(false);

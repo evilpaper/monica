@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/monica-logo-turquoise.svg";
+import styles from "./styles.css";
 
 export default function Landing(props) {
   function onButtonClick() {
