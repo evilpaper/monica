@@ -135,6 +135,7 @@ function Navigation() {
             </li>
             <li className="navigation-list__item">
               <NavLink
+                exact={true}
                 activeClassName="is-active"
                 className="naviagtion-link"
                 to="/howtos"
@@ -144,6 +145,7 @@ function Navigation() {
             </li>
             <li className="navigation-list__item">
               <NavLink
+                exact={true}
                 activeClassName="is-active"
                 className="naviagtion-link"
                 to="/team"
@@ -153,6 +155,7 @@ function Navigation() {
             </li>
             <li className="navigation-list__item">
               <NavLink
+                exact={true}
                 activeClassName="is-active"
                 className="naviagtion-link"
                 to="/unit"
@@ -164,6 +167,7 @@ function Navigation() {
           <ul className="navigation-list">
             <li className="navigation-list__item navigation-list__item--account">
               <NavLink
+                exact={true}
                 activeClassName="is-active"
                 className="naviagtion-link"
                 to="/account"
