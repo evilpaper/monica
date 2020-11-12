@@ -16,8 +16,6 @@ export default function Todos() {
     return (
       <article>
         <section className="top-bar">
-          {" "}
-          <h3 className="unit-name">Greasy Spoon</h3>
           <button
             onClick={handleCalenderClick}
             className="to-do-calendar-button"
