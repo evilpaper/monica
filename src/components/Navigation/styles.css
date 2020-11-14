@@ -2,7 +2,7 @@
   font-family: "Inter", sans-serif;
   display: flex;
   justify-content: space-between;
-  padding: 1.4em 4em;
+  padding: 1.2em 5em;
   border-bottom: 1px solid var(--color-lightgrey-three);
   background-color: white;
 }
@@ -27,10 +27,22 @@
   display: flex;
   color: var(--color-darkgrey-four);
   letter-spacing: -0.3px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .naviagtion-link:hover {
   color: var(--color-aubergine-dark);
+}
+
+.navigation-link__active-marker {
+  width: 0.1em;
+  height: 0.2em;
+  background-color: var(--color-blueberry-main);
+  border-radius: 0.4em;
+  margin-top: 0.4em;
+  opacity: 0;
+  transition: 300ms all;
 }
 
 .navigation__item--icon {
@@ -96,4 +108,9 @@
 
 .is-active {
   color: var(--color-blueberry-main);
+}
+
+.is-active .navigation-link__active-marker {
+  opacity: 1;
+  width: 2em;
 }

@@ -131,6 +131,7 @@ function Navigation() {
                 to="/"
               >
                 To-do's
+                <div className="navigation-link__active-marker"></div>
               </NavLink>
             </li>
             <li className="navigation-list__item">
@@ -141,6 +142,7 @@ function Navigation() {
                 to="/howtos"
               >
                 How-to's
+                <div className="navigation-link__active-marker"></div>
               </NavLink>
             </li>
             <li className="navigation-list__item">
@@ -151,6 +153,7 @@ function Navigation() {
                 to="/team"
               >
                 Team
+                <div className="navigation-link__active-marker"></div>
               </NavLink>
             </li>
             <li className="navigation-list__item">
@@ -160,7 +163,8 @@ function Navigation() {
                 className="naviagtion-link"
                 to="/unit"
               >
-                Place
+                Settings
+                <div className="navigation-link__active-marker"></div>
               </NavLink>
             </li>
           </ul>
