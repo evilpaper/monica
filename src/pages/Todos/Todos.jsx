@@ -15,13 +15,15 @@ export default function Todos() {
   } else {
     return (
       <article>
+        <div className="wrapper">
         <section className="top-bar">
+          <p>Tuesday, 17 November 2020</p>
           <button
             onClick={handleCalenderClick}
             className="to-do-calendar-button"
           >
             <FiCalendar className="to-do-calendar-button__icon" />
-            View calendar
+            Change day
           </button>
         </section>
           <h1>To do's.</h1>
@@ -37,8 +39,8 @@ export default function Todos() {
                 <p>· How-to's have a button "read and understood".</p>
               </li>
             </ul>
+          </div>
       </article>
-      
     );
   }
 }

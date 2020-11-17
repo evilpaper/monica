@@ -163,7 +163,7 @@ function Navigation() {
                 className="naviagtion-link"
                 to="/unit"
               >
-                Settings
+                Businesss
                 <div className="navigation-link__active-marker"></div>
               </NavLink>
             </li>
@@ -176,7 +176,7 @@ function Navigation() {
                 className="naviagtion-link"
                 to="/account"
               >
-                Account
+                Create account
               </NavLink>
             </li>
           </ul>
