@@ -41,6 +41,10 @@
   color: var(--color-radish-main);
 }
 
+.to-do-selected-day {
+  font-weight: 700;
+}
+
 .to-do-header {
   display: flex;
   align-items: center;

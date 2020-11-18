@@ -17,7 +17,7 @@ export default function Todos() {
       <article>
         <div className="wrapper">
         <section className="top-bar">
-          <p>Tuesday, 17 November 2020</p>
+          <div className="to-do-selected-day">Tuesday, 17 November 2020</div>
           <button
             onClick={handleCalenderClick}
             className="to-do-calendar-button"
