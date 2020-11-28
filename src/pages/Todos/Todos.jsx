@@ -6,7 +6,6 @@ export default function Todos() {
   const [showCalendar, setShowCalendar] = useState(false);
 
   function handleCalenderClick(e) {
-    console.log("Tjihoo, you clicked the calendar button");
     setShowCalendar(!showCalendar);
   }
 
@@ -39,7 +38,7 @@ export default function Todos() {
                 <p>· How-to's have a button "read and understood".</p>
               </li>
             </ul>
-          </div>
+        </div>
       </article>
     );
   }

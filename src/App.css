@@ -69,6 +69,11 @@ p {
   padding-top: 0.6em;
 }
 
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
 @media (max-width: 1800px) {
 }
 

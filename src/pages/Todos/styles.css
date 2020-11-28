@@ -6,11 +6,6 @@
   margin-top: 2rem;
 }
 
-.wrapper {
-  width: 90%;
-  margin: 0 auto;
-}
-
 .top-bar {
   display: flex;
   justify-content: space-between;
