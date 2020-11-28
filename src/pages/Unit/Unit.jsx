@@ -8,10 +8,13 @@ export default function Unit() {
         <p className="general-copy">List of settings for the unit.</p>
         <ul>
           <li className="general-specification-list-item">
-            <p>· Opening hours.</p>
+            <p>· Units name.</p>
           </li>
           <li className="general-specification-list-item">
-            <p>· Opening days.</p>
+            <p>· Units opening hours.</p>
+          </li>
+          <li className="general-specification-list-item">
+            <p>· Units opening days.</p>
           </li>
           <li className="general-specification-list-item">
             <p>· Day break.</p>

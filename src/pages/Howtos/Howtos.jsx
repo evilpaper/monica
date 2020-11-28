@@ -11,7 +11,7 @@ export default function Howtos() {
             <p>· How-to's can be opened.</p>
           </li>
           <li className="general-specification-list-item">
-            <p>· How-to's contain text and images.</p>
+            <p>· How-to's can contain text, images and videos.</p>
           </li>
           <li className="general-specification-list-item">
             <p>· How-to's have a button "read and understood".</p>

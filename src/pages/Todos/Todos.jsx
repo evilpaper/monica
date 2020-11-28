@@ -26,16 +26,13 @@ export default function Todos() {
           </button>
         </section>
           <h1>To do's.</h1>
-            <p className="general-copy">List of how-to's.</p>
+            <p className="general-copy">List of to-do's grouped in checklists.</p>
             <ul>
               <li className="general-specification-list-item">
-                <p>· How-to's can be opened.</p>
+                <p>· Checklists can be be opened to reveal the content i.e the actual to-do's.</p>
               </li>
               <li className="general-specification-list-item">
-                <p>· How-to's contain text and images.</p>
-              </li>
-              <li className="general-specification-list-item">
-                <p>· How-to's have a button "read and understood".</p>
+                <p>· The page can show a calendar that can be called upon and that show which day's you have to-do's on like Moleskines Timepage.</p>
               </li>
             </ul>
         </div>

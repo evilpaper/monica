@@ -163,7 +163,7 @@ function Navigation() {
                 className="naviagtion-link"
                 to="/unit"
               >
-                Businesss
+                Unit
                 <div className="navigation-link__active-marker"></div>
               </NavLink>
             </li>

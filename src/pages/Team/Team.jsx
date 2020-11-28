@@ -10,11 +10,14 @@ export default function Team() {
           <li className="general-specification-list-item">
             <p>· New users can be invited with email.</p>
           </li>
-        </ul>
-        <ul>
           <li className="general-specification-list-item">
             <p>
-              · User status include last login, to-do's completed, how-to's read.
+              · Each row show basic stats like when last active, how much the user contribute, remind button.
+            </p>
+          </li>
+          <li className="general-specification-list-item">
+            <p>
+              · Each user can be opened to a new view revealing more info like last login, to-do's completed, how-to's read.
             </p>
           </li>
         </ul>
