@@ -68,3 +68,108 @@ export const SAFER_FOOD_BETTER_BUSINESS = [
     ]
   }
 ]
+
+export const STANDARD_SWEDSIH = [
+  {
+    checklists: [
+      {
+        name: "Daglig kontroll",
+        tasks: [
+          {
+            what: "Rengöring. Kontrollera att all utrustning och alla ytor som kommer i kontakt med mat hel och ren.",
+            type: "check",
+            input: "checkbox"
+          },
+          {
+            what: "Diskning. Kontrollera att diskmaskinen är ren och kommer upp i 80-90°C vid slutsköljning.",
+            type: "check",
+            input: "checkbox"
+          },
+          {
+            what: "Kontrollera att vi kan uppge fullständigt innehåll på våra produkter genom att ta ett stickprov.",
+            type: "check",
+            input: "checkbox"
+          },
+          {
+            what: "Kontrollera att alla frysar håller rätt temperatur.",
+            type: "check",
+            input: "checkbox"
+          },
+          {
+            what: "Kontrollera att alla livsmedel förvaras korrekt dvs. är övertäcka, uppmärkta etc.",
+            type: "check",
+            input: "checkbox"
+          },
+          {
+            what: "Kontrollera att mottagna varor är hela, rena och har rätt temperatur. Skriv temperatur och din signatur på följesedeln.",
+            type: "check",
+            input: "checkbox"
+          },
+          {
+            what: "Säkerställ förutsättningar för god personlig hygien. Gör rent alla handfat för handtvätt och se till att det finns gott om tvål och engångshanddukar.",
+            type: "check",
+            input: "checkbox"
+          }
+  
+        ]
+      }
+    ]
+  }
+]
+
+export const EXPANDED_SWEDSIH = [
+  {
+    checklists: [
+      {
+        name: "Rengöringskontroll",
+        tasks: [
+          {
+            what: "Rengöring. Kontrollera att all utrustning och alla ytor som kommer i kontakt med mat hel och ren.",
+            type: "check",
+            input: "checkbox"
+          }
+        ]
+      },
+      {
+        name: "Mathantering",
+        tasks: [
+          {
+            what: "Rengöring. Kontrollera att all utrustning och alla ytor som kommer i kontakt med mat hel och ren.",
+            type: "check",
+            input: "checkbox"
+          }
+        ]
+      },
+      {
+        name: "Kylda varor och kylar",
+        tasks: [
+          {
+            what: "Rengöring. Kontrollera att all utrustning och alla ytor som kommer i kontakt med mat hel och ren.",
+            type: "check",
+            input: "checkbox"
+          }
+        ]
+      },
+      {
+        name: "Frysta varor och frysar",
+        tasks: [
+          {
+            what: "Rengöring. Kontrollera att all utrustning och alla ytor som kommer i kontakt med mat hel och ren.",
+            type: "check",
+            input: "checkbox"
+          }
+        ]
+      },
+      {
+        name: "Varumottagning",
+        tasks: [
+          {
+            what: "Rengöring. Kontrollera att all utrustning och alla ytor som kommer i kontakt med mat hel och ren.",
+            type: "check",
+            input: "checkbox"
+          }
+        ]
+      },
+    ]
+  }
+]
