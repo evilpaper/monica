@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FiCalendar } from "react-icons/fi";
+import Checklist from "../../components/Checklist";
 import "./styles.css";
 
 export default function Todos() {
@@ -26,6 +27,7 @@ export default function Todos() {
           </button>
         </section>
           <h1>To do's.</h1>
+            <Checklist />
             <p className="general-copy">List of to-do's grouped in checklists.</p>
             <ul>
               <li className="general-specification-list-item">
