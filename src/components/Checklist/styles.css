@@ -1,0 +1,16 @@
+.checklist {
+  border: 1px solid coral;
+  border-radius: 1em;
+  max-width: 20em;
+  height: 30em;
+  max-height: 30em;
+  padding: 1em;
+}
+
+.checklist h1 {
+  font-size: 2em;
+}
+
+.checklist h3 {
+  font-size: 1em;
+}
