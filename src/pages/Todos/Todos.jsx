@@ -26,17 +26,7 @@ export default function Todos() {
             Change day
           </button>
         </section>
-          <h1>To do's.</h1>
             <Checklist />
-            <p className="general-copy">List of to-do's grouped in checklists.</p>
-            <ul>
-              <li className="general-specification-list-item">
-                <p>· Checklists can be be opened to reveal the content i.e the actual to-do's.</p>
-              </li>
-              <li className="general-specification-list-item">
-                <p>· The page can show a calendar that can be called upon and that show which day's you have to-do's on like Moleskines Timepage.</p>
-              </li>
-            </ul>
         </div>
       </article>
     );
