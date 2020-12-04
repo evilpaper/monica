@@ -1,0 +1,14 @@
+.badge {
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  color: var(--color-white);
+  font-weight: 500;
+}
