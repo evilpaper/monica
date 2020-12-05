@@ -42,7 +42,7 @@
 }
 
 article {
-  padding: 4em;
+  padding: 1em;
   min-height: 100vh;
   background-color: var(--color-lightgrey-one);
 }
@@ -70,7 +70,7 @@ p {
 }
 
 .wrapper {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 

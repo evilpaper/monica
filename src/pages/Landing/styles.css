@@ -3,13 +3,17 @@
   background-size: cover;
 }
 
+.landing-frame {
+  padding: 4rem;
+}
+
 .landing-logo {
   width: 6em;
 }
 
 .landing-header {
   color: var(--color-lightgrey-one);
-  margin-top: 4em;
+  margin-top: 3em;
   font-size: 4em;
 
   line-height: 1.2em;

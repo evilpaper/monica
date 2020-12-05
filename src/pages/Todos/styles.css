@@ -9,6 +9,7 @@
 .top-bar {
   display: flex;
   justify-content: space-between;
+  padding: 3em 0;
 }
 
 .unit-name {
@@ -22,7 +23,6 @@
   align-items: center;
   padding-left: 0;
   padding-right: 0;
-  font-size: 0.9em;
   color: var(--color-aubergine-dark);
   border: none;
   background-color: transparent;
@@ -37,7 +37,7 @@
 }
 
 .to-do-selected-day {
-  font-weight: 700;
+  color: var(--color-aubergine-dark);
 }
 
 .to-do-header {
