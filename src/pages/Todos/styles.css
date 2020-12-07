@@ -40,6 +40,10 @@
   color: var(--color-aubergine-dark);
 }
 
+.to-do-selected-day__day {
+  font-weight: 700;
+}
+
 .to-do-header {
   display: flex;
   align-items: center;
