@@ -12,15 +12,15 @@ export default function Landing(props) {
       <div className="landing-frame">
         <img className="landing-logo" src={logo} alt="monica logo"></img>
         <h1 className="landing-header">
-          Pass inspections <br/><span> every</span> time 
+          The <span> easy </span>way <br/> 
+          to pass inspections <span> <br/> 
+          every </span> time 
         </h1>
         <p className="landing-copy">
-          A complete food safety managment system for your cater business. Setup in 60 seconds.
-          <br />
-          Free 14 days trail, no credit card needed.
+          A complete food safety managment system for your cater business. 
         </p>
         <button onClick={onButtonClick} className="landing-cta">
-          TRY MONICA NOW
+          TRY FOR FREE NOW
         </button>
       </div>
     </article>
