@@ -58,7 +58,9 @@
 @media (max-width: 900px) {
   .landing-section {
     max-width: 100%;
-    padding: 3em;
+  }
+  .landing-frame {
+    padding: 2em;
   }
   .landing-header {
     max-width: 100%;
@@ -76,7 +78,9 @@
 
 @media (max-width: 600px) {
   .landing-section {
-    padding: 2em;
+  }
+  .landing-frame {
+    padding: 1em;
   }
   .landing-copy {
     max-width: 100%;
