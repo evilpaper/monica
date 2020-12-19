@@ -1,10 +1,14 @@
 .landing-section {
   background-image: url("../../assets/landing-bg-min.jpg");
   background-size: cover;
+  height: 100vh;
 }
 
 .landing-frame {
   padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .landing-logo {
@@ -30,7 +34,7 @@
   color: var(--color-lightgrey-one);
   margin-top: 1em;
   max-width: 60%;
-  font-size: 1.6em;
+  font-size: 1.4em;
   line-height: 1.6em;
 }
 
@@ -42,6 +46,7 @@
   margin-top: 3em;
   padding: 0.8em 2em;
   font-weight: 700;
+  max-width: 16em;
 }
 
 .landing-cta:hover {
@@ -61,6 +66,7 @@
   }
   .landing-frame {
     padding: 2em;
+    justify-content: space-between;
   }
   .landing-header {
     max-width: 100%;
@@ -73,6 +79,7 @@
   }
   .landing-cta {
     width: 100%;
+    max-width: 100%;
   }
 }
 
