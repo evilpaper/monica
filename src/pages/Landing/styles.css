@@ -44,14 +44,29 @@
   border: 2px solid var(--color-radish-main);
   border-radius: 2em;
   margin-top: 3em;
-  padding: 0.8em 2em;
+  padding: 0.8em 0.1em;
   font-weight: 700;
-  max-width: 16em;
+  max-width: 20em;
 }
 
 .landing-cta:hover {
   background-color: transparent;
   color: var(--color-lightgrey-one);
+}
+
+.landing-checkmarks {
+  margin-top: 3em;
+  list-style: none;
+  display: flex;
+}
+
+.landing-checkmark {
+  color: var(--color-lightgrey-four);
+  margin-left: 1em;
+}
+
+.landing-checkmark:first-child {
+  margin-left: 0;
 }
 
 @media (max-width: 1800px) {
@@ -66,7 +81,6 @@
   }
   .landing-frame {
     padding: 2em;
-    justify-content: space-between;
   }
   .landing-header {
     max-width: 100%;
@@ -80,6 +94,12 @@
   .landing-cta {
     width: 100%;
     max-width: 100%;
+  }
+  .landing-checkmarks {
+    flex-direction: column;
+  }
+  .landing-checkmark {
+    margin-left: 0;
   }
 }
 

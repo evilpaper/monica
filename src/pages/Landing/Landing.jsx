@@ -13,17 +13,22 @@ export default function Landing(props) {
         <img className="landing-logo" src={logo} alt="monica logo"></img>
         <div>
           <h1 className="landing-header">
-            The <span>easy</span> way to <br/>
-            pass food safety <br/>
+            Pass <span>food safety </span><br/>
             inspections <span> every </span> time 
           </h1>
           <p className="landing-copy">
-            A complete food safety managment system for small and medium food businesses.   
+            Monica is a complete food safety managment system for small and medium food businesses. 
+            All checklists, records and safe methods your business need.  
           </p>
         </div>
         <button onClick={onButtonClick} className="landing-cta">
-          TRY FOR FREE NOW
+          GET STARTED FOR FREE
         </button>
+        <ul className="landing-checkmarks">
+          <li className="landing-checkmark"> ✔ Free trail available </li>
+          <li className="landing-checkmark"> ✔ No credit card required </li>
+          <li className="landing-checkmark"> ✔ Cancel anytime </li>
+        </ul>
       </div>
     </article>
   );

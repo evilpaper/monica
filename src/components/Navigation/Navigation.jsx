@@ -53,7 +53,8 @@ function Navigation() {
                 activeClassName="is-active"
                 className="mobile-navigation-link"
                 to="/"
-              >
+                onClick={() => console.log("Yeah, you clicked!")}
+              > 
                 <FiCheckSquare className="mobile-navigation__item--icon" />
                 <span className="mobile-navigation__item--label">To-do</span>
               </NavLink>
