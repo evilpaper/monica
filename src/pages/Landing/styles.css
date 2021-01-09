@@ -55,7 +55,7 @@
 }
 
 .landing-checkmarks {
-  margin-top: 3em;
+  margin-top: 2em;
   list-style: none;
   display: flex;
 }
@@ -96,10 +96,12 @@
     max-width: 100%;
   }
   .landing-checkmarks {
+    margin-top: 1em;
     flex-direction: column;
   }
   .landing-checkmark {
     margin-left: 0;
+    margin-top: 0.4em;
   }
 }
 

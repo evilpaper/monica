@@ -17,8 +17,8 @@ export default function Landing(props) {
             inspections <span> every </span> time 
           </h1>
           <p className="landing-copy">
-            Monica is a complete food safety managment system for small and medium food businesses. 
-            All checklists, records and safe methods your business need.  
+            A complete food safety managment system for small and medium food businesses. 
+            All checklists and records your business need.  
           </p>
         </div>
         <button onClick={onButtonClick} className="landing-cta">
