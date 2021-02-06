@@ -1,7 +1,7 @@
 .landing-section {
   background-image: url("../../assets/landing-bg-min.jpg");
   background-size: cover;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .landing-frame {
@@ -43,7 +43,7 @@
   background-color: var(--color-radish-main);
   border: 2px solid var(--color-radish-main);
   border-radius: 2em;
-  margin-top: 3em;
+  margin-top: 2em;
   padding: 0.8em 0.1em;
   font-weight: 700;
   max-width: 20em;
@@ -67,6 +67,32 @@
 
 .landing-checkmark:first-child {
   margin-left: 0;
+}
+
+.social-proof {
+  display: flex;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.social-proof-avatar {
+  border-radius: 50%;
+  width: 3em;
+  margin-right: 1em;
+}
+
+.social-proof-testimonial-quote {
+  color: var(--color-lightgrey-one);
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  margin: 0;
+  font-size: 1.4em;
+}
+
+.social-proof-testimonial-name {
+  color: var(--color-lightgrey-four);
+  font-family: "IBM Plex Serif", serif;
+  font-size: 1em;
 }
 
 @media (max-width: 1800px) {
@@ -102,6 +128,12 @@
   .landing-checkmark {
     margin-left: 0;
     margin-top: 0.4em;
+  }
+  .social-proof-testimonial-quote {
+    font-size: 1em;
+  }
+  .social-proof-testimonial-name {
+    font-size: 0.8em;
   }
 }
 
