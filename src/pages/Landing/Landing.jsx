@@ -20,8 +20,8 @@ export default function Landing(props) {
             inspections <span> every </span> time 
           </h1>
           <p className="landing-copy">
-            A complete food safety management app for small and medium food businesses.
-            You only need to invest <strong>5 mins</strong> a day.
+            A food safety app for small and medium food businesses.
+            Comply to regulations with only <strong>5 mins</strong> a day.
           </p>
         </div>
         <button onClick={onButtonClick} className="landing-cta">
@@ -35,7 +35,7 @@ export default function Landing(props) {
         <section className="social-proof">
           <img src={avatar} className="social-proof-avatar" alt="social-proof-avatar"/>
           <div className="social-proof-testimonial">
-            <blockquote className="social-proof-testimonial-quote">"Smidigt o enkelt! Sparar massor av tid!"</blockquote>
+            <blockquote className="social-proof-testimonial-quote">"Flexible and easy! Saves a lot of time!"</blockquote>
             <p className="social-proof-testimonial-name">Frank Lowe · Owner · Greasy Spoon</p>
           </div>
         </section>
